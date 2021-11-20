@@ -118,6 +118,9 @@ body{
     .carousel-outer p{
         font-size:25px !important;
     }
+    .carousel-outer form{
+        width:60% !important;
+    }
     #stores-div{
         flex-direction: row !important;
     }
@@ -190,6 +193,9 @@ body{
 .carousel img{
     filter: grayscale(50%);
     opacity:0.5;;
+    min-height:600px;
+    min-width:800px;
+    margin:auto;
 }
 
 .carousel-outer{
@@ -227,10 +233,9 @@ body{
 .carousel-outer form{
     position:relative;
     border:1px solid white;
-    width:60%;
+    width:90%;
     display:flex;
     flex-direction: column;
-    
     align-items: center;
     background-color: #222;
     padding:20px;
